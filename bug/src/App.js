@@ -2,14 +2,15 @@ import React, { Component } from 'react';
 
 class App extends Component {
   state = {
-    text: 'Landing Page'
+    text: 'Landing Page 1'
   }
 
   componentDidUpdate() {
-    //this.setState({ text: 'Component Updated' });
+    console.log(this.state.text);
   }
 
   componentDidMount() {
+    console.log(this.state.text);
     this.setState({ text: 'Landing Page 2' });
   }
 

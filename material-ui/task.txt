@@ -1,3 +1,4 @@
 Task: 
     Make the App.js table mobile friendly using Material-UI components.
     Also by default, the table has a dark theme. We want to add a button for the user to toggle between dark/light themes and remember the user selection when the page reloads.
+    Make sure table heads are aligned with their values
