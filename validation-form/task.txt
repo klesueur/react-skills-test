@@ -1,3 +1,8 @@
 Task: 
-    Make the App.js table mobile friendly using Material-UI components.
-    Also by default, the table has a dark theme. We want to add a button for the user to toggle between dark/light themes and remember the user selection when the page reloads.
+    Format phone number to match mask (###) ###-####
+    Mark all fields as required
+    Disable the submit button if the fields are not valid
+    Validate email Format
+    Set error flags when validation fails
+    When submit, make a axios post request to https://toughland.com:9095/api/validate and handle any validation issues properly
+    If the api returns a Bad Request and specifies the field error, set the error flag for that field and replace the helper text with the message coming from the Api

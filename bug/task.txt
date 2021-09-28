@@ -1,0 +1,9 @@
+Task: 
+    Create a new route to use the PageHandler for "pagination"
+
+Example:
+    When the user clicks the landing page link "Go to Page 1" the new route should redirect the user to the PageHandler component and the page should display "Page 1" instead of "Page #".
+    When the user clicks the landing page link "Go to Page 2" the new route should redirect the user to the PageHandler component and the page should display "Page 2" instead of "Page #".
+    Same with "Go to Page 3".
+
+The PageHandler needs to be reused instead of creating a copy of it for each page.
