@@ -1,0 +1,11 @@
+Task: 
+    Replace "Default text" with a list of key/value pairs coming from the querystring.
+
+Example:
+    - If the URL address is http://localhost:3000/?name=Ricardo&lastname=Goncalves the page should display:
+        name: Ricardo
+        lastname: Goncalves
+    - If the URL address is http://localhost:3000/?number=1156 the page should display:
+        number: 1156
+
+The querystring can vary and the page should handle any number of variables.

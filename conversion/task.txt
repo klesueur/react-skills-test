@@ -1,0 +1,4 @@
+Task: 
+    Convert those class components to function components.
+
+The existing functionality, including the console.logs should continue working as they are in the class components.

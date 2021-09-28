@@ -1,0 +1,5 @@
+Task: 
+    App component is currently holding a local state "text" and passing down its value to its children. 
+    We want to use redux to centralize the state info and read from the redux store to display the value inside the ChildComponent.
+    App should write to redux store and ChildComponent should read from it.
+    Initial state for the redux store "text" should be "initial state text", then App will override this value with "App changed it".
